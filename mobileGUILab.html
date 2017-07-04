@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery Mobile Inclusion</title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <style>
+            #page1 {
+                background-color: lightcyan;
+                color: darkgray;
+                text-align: center;
+            }
+            #page2 {
+                background-color: lightgoldenrodyellow;
+                color: darkgray;
+                text-align: center;
+            }
+            #header1, #footer, #header2, #footer2 {
+                color: darkred;
+            }
+        
+        
+        </style>
+    </head>
+    <body>
+        <div data-role="page" id="page1">
+            <div data-role="header" id="header1" data-position="fixed">Intro to Programming</div>
+            <div data-role="content" id="content"><p> Welcome to Intro to Programming.</p><p><a href="#page2">Page 2</a></p></div>
+            <div data-role="footer" id="footer1" data-position="fixed">&copy; 2017</div>
+        </div>
+        <div data-role="page" id="page2">
+            <div data-role="header" id="header2" data-position="fixed">Intro to Programming</div>
+            <div data-role="content"><p> This is page2.</p><p><a href="#page1">Start Over</a></p></div>
+            <div data-role="footer" id="footer2" data-position="fixed">&copy; 2017</div>
+        </div>
+        
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
